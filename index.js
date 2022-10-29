@@ -21,7 +21,7 @@ const CronJob = require("cron").CronJob;
 const { App } = require("./zara");
 
 var job = new CronJob(
-  "*/30 * * * * *",
+  "59 59 23 * * *",
   function () {
     App();
   },
